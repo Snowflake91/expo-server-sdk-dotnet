@@ -1,0 +1,9 @@
+/src/*/bin
+/src/*/obj
+/test/*/bin
+/test/*/obj
+/.idea
+.DS_Store
+*.user
+/.vs
+global.json

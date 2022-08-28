@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <PackageId>Expo.Server.DotnetCore.SDK</PackageId>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <RepositoryUrl>https://github.com/Snowflake91/expo-server-sdk-dotnet</RepositoryUrl>
+        <PackageTags>expo push client extensions</PackageTags>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <AssemblyName>Expo.Server.SDK</AssemblyName>
+        <Version>1.0.0</Version>
+        <Authors>Dat Pham</Authors>
+        <Company></Company>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="../../LICENSE" PackagePath="" Pack="true" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+        <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="3.1.28" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.28" />
+        <PackageReference Include="Microsoft.Extensions.Http" Version="3.1.28" />
+    </ItemGroup>
+
+</Project>
